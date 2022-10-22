@@ -48,14 +48,14 @@ Console.WriteLine ($"The distance between point ({Point1_X}, {Point1_Y}, {Point1
 
 //Программа, которая принимает на вход число N и выдает таблицу кубов чисел от 1 до N.
 
-/*void TableOfNumberCube (int number)
+void TableOfNumberCube (int number)
 {
     for (int count = 1; count <= number; count++)
     {
-        Console.Write ($"{count*count} ");
+        Console.Write ($"{count*count*count} ");
     }
 }
 
 Console.Write ("Input number: ");
 int userNum = Convert.ToInt32 (Console.ReadLine());
-TableOfNumberCube (userNum);*/
+TableOfNumberCube (userNum);
