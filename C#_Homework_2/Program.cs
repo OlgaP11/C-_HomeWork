@@ -1,6 +1,6 @@
 ﻿// Задача 10. Программа, которая принимает на вход трехзначное число и на выходе показывает вторую цифру этого числа.
 
-int FindSecondDigit (int number)
+/*int FindSecondDigit (int number)
 {
     int digit2 = 0;
     if (number > 99 && number <1000)
@@ -24,7 +24,7 @@ if (secondDigit > 0)
 else 
 {
     Console.WriteLine ($"{userNum} is not three-digit number.");
-}
+}*/
 
 //Задача 13. Программа, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
